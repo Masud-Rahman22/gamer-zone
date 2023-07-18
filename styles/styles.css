@@ -83,7 +83,9 @@ body {
 }
 
 /* banner styles here */
-
+.banner-section{
+    background-color: aliceblue;
+}
 .banner-container {
     max-width: 80%;
     margin: 0 auto;
@@ -168,6 +170,9 @@ body {
 }
 
 /* gamer styles here */
+.gamer-section{
+    background-color: aliceblue;
+}
 .gamer {
     max-width: 80%;
     margin: 0 auto;
@@ -368,3 +373,4 @@ body {
     right: -150px;
     bottom: -100px;
 }
+/* games section styles here */
