@@ -245,6 +245,9 @@ body {
 #card-img {
     margin-top: -2rem;
 }
+#card-img:hover{
+
+}
 
 .online-games-container h2 {
     color: #0B0223;
@@ -252,6 +255,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }
 
 .online-games-container h2 span {
