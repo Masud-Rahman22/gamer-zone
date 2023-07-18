@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-listing{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}
+@media screen and (min-width: 576px ) and (max-width: 920px) {
+    nav {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
