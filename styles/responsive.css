@@ -1,59 +1,110 @@
 @media screen and (max-width: 576px) {
-    .nav-section{
+    .nav-section {
         flex-direction: column;
     }
 
-    .nav-listing{
+    .nav-listing {
         flex-direction: column;
         margin-top: 1rem;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         gap: 2rem;
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
     }
-    .gamer{
+
+    .gamer {
         flex-direction: column;
     }
-    .gamer img{
+
+    .gamer img {
         width: 100%;
     }
-    .online-games-cards{
+
+    .online-games-cards {
         flex-direction: column;
     }
+
     .online-games-container h2 {
         margin-top: 2rem;
+    }
+
+    .play-section {
+        flex-direction: column;
+    }
+    .play-section-images{
+        padding: ;
+    }
+     .play-section-images img{
+        width: 90%;
+        height: 90%;
+        margin-left: 1.3rem;
+    }
+    .play-section-images .angela-picture{
+        width: 45%;
+        height: 45%;
+        /* position: absolute; */
+        right: 65%;
+        top: 60%;
     }
 }
 
-@media screen and (min-width: 576px) and ( max-width: 920px) {
-    .nav-section{
+@media screen and (min-width: 576px) and (max-width: 920px) {
+    .nav-section {
         flex-direction: column;
         gap: 1.5rem;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         gap: 2rem;
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
     }
-    .gamer{
+
+    .gamer {
         flex-direction: column;
     }
-    .gamer img{
+
+    .gamer img {
         width: 100%;
     }
-    .online-games-cards{
+
+    .online-games-cards {
         flex-direction: column;
     }
+
     .online-games-container h2 {
         margin-top: 2rem;
         font-size: 2.5rem;
     }
-    .online-games-container h2 span{
+
+    .online-games-container h2 span {
         font-size: 2.5rem;
+    }
+    
+    .play-section {
+        flex-direction: column;
+    }
+    .play-section-images{
+        padding: ;
+    }
+     .play-section-images img{
+        width: 90%;
+        height: 90%;
+        margin-left: 1.3rem;
+    }
+    .play-section-images .angela-picture{
+        width: 45%;
+        height: 45%;
+        /* position: absolute; */
+        right: 65%;
+        top: 60%;
     }
 }
