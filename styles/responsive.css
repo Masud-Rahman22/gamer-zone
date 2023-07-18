@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    nav {
+    .nav-section{
         flex-direction: column;
     }
 
@@ -7,10 +7,37 @@
         flex-direction: column;
         margin-top: 1rem;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .gamer{
+        flex-direction: column;
+    }
+    .gamer img{
+        width: 100%;
+    }
 }
-@media screen and (min-width: 576px ) and (max-width: 920px) {
-    nav {
+
+@media screen and (min-width: 576px) and ( max-width: 920px) {
+    .nav-section{
         flex-direction: column;
         gap: 1.5rem;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .gamer{
+        flex-direction: column;
+    }
+    .gamer img{
+        width: 100%;
     }
 }
