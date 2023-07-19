@@ -248,13 +248,48 @@ body {
     height: 300px;
     object-fit: cover;
 }
+/* bonus */
 
-#card-img {
-    margin-top: -2rem;
+.overlay .hover-img{
+    width: 2rem;
+    height: 2rem;
 }
 
-#card-img:hover {}
-
+#card-img {
+    /* margin-top: -2rem; */
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+.card-3{
+    margin-top: 20rem;
+    left: 10%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-color);
+    text-align: center;
+}
+.card-3:hover .overlay{
+    opacity: 0.8;
+}
 .online-games-container h2 {
     color: #0B0223;
     text-align: center;
@@ -329,8 +364,6 @@ body {
     width: 318.5px;
     height: 365.083px;
     position: absolute;
-    /* right: 470px;
-    top: 360px; */
     right: 75%;
     top: 53%;
 }
