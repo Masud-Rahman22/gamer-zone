@@ -61,6 +61,19 @@
         right: -60px;
         bottom: -50px;
     }
+     .games-section{
+        max-width: 100%;
+    }
+    .various-games{
+        gap: 5px;
+    }
+    .various-games p {
+        font-size: 10px;
+    }
+    .various-games img{
+        width: 2rem;
+        height: 2rem;
+    } 
 }
 
 @media screen and (min-width: 576px) and (max-width: 920px) {
@@ -131,4 +144,17 @@
         right: -50px;
         bottom: -50px;
     }
+    .games-section{
+        max-width: 100%;
+    }
+    .various-games{
+        gap: 5px;
+    }
+    .various-games p {
+        font-size: 10px;
+    }
+    .various-games img{
+        width: 2rem;
+        height: 2rem;
+    } 
 }

@@ -83,9 +83,10 @@ body {
 }
 
 /* banner styles here */
-.banner-section{
+.banner-section {
     background-color: aliceblue;
 }
+
 .banner-container {
     max-width: 80%;
     margin: 0 auto;
@@ -170,9 +171,10 @@ body {
 }
 
 /* gamer styles here */
-.gamer-section{
+.gamer-section {
     background-color: aliceblue;
 }
+
 .gamer {
     max-width: 80%;
     margin: 0 auto;
@@ -342,9 +344,11 @@ body {
     align-items: center;
     gap: 12rem;
 }
-.play-section-information-2{
+
+.play-section-information-2 {
     padding: 30px;
 }
+
 .play-section-information-2 h2 {
     font-size: 3rem;
     font-weight: 700;
@@ -365,12 +369,50 @@ body {
     line-height: 1.875rem;
     margin-top: 1rem;
 }
-.play-section-images-2{
+
+.play-section-images-2 {
     position: relative;
 }
-.play-section-images-2 .tom{
+
+.play-section-images-2 .tom {
     position: absolute;
     right: -150px;
     bottom: -100px;
 }
+
 /* games section styles here */
+.games-section {
+    max-width: 80%;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+}
+
+.various-games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.various-games p {
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.various-games:hover {
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    background: #FFF;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+}
